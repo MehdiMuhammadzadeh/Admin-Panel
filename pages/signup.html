@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Welcome to the First Site" />
+    <meta name="keywords" content="HTML ,CSS, PHP, developer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/signup.css" />
+    <link rel="stylesheet" href="../css/mobile.css">
+
+    <title>Sign up!</title>
+</head>
+
+<body>
+
+
+    <section id="signup">
+        <div class="signup-form">
+            <h2 class="signup-title">ثبت نام</h2>
+            <form class="registration__form" action="" name="form" method="post" onsubmit="return validate()">
+                <div>
+                    <label>نام کاربری</label>
+                    <input autocomplete="off" type="text" name="username" placeholder="نام کاربری را وارد کنید">
+                    <div id="user__error">لطفا نام کاربری خود را وارد کنید</div>
+                </div>
+                <div>
+                    <label for="">ایمیل</label>
+                    <input autocomplete="off" type="email" name="email" placeholder="ایمیل را وارد کنید">
+                    <div id="email__error">لطفا ایمیل خود را وارد کنید</div>
+                </div>
+                <div>
+                    <label for="">رمز ورود</label>
+                    <input type="password" name="password" placeholder="رمز عبور وارد کنید">
+                    <div id="pass__error">لطفا رمز عبور را وارد کنید</div>
+                </div>
+                <div>
+                    <label for="">تکرار رمز ورود</label>
+                    <input type="password" name="password2" placeholder="تکرار رمز ورود را وارد کنید">
+                    <div id="repass__error">لطفا تکرار رمز عبور ر وارد کنید</div>
+                    <small id="error_message">رمز عبور مطابقت ندارد</small>
+                </div>
+                <div class="signup-button">
+                    <button class="signup-btn" type="submit">ارسال</button>
+                    <a class="signup-account" href="./signin.html">!حساب کاربری دارم</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>

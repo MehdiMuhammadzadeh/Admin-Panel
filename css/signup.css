@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Vazir-FD';
+    src: url('../fonts/Vazir-FD.woff');
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Vazir-FD', Arial, Helvetica, sans-serif;
+}
+
+.signup-title {
+    text-align: center;
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #410237;
+    color: #310129;
+}
+
+#signup .signup-form {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 1rem;
+    flex-basis: 500px;
+    text-align: right;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+
+}
+
+#signup .signup-form label {
+    display: block;
+    margin: 1rem 0;
+}
+
+#signup .signup-form input {
+    width: 100%;
+
+}
+
+#signup .signup-form input[type="text"] {
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #a9a9a9;
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: right;
+    padding: 0 1rem;
+
+}
+
+#signup .signup-form input[type="password"] {
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #a9a9a9;
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: right;
+    padding: 0 1rem;
+}
+
+#signup .signup-form input[type="email"] {
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #a9a9a9;
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: right;
+    padding: 0 1rem;
+
+}
+
+.signup-button {
+    text-align: center;
+    margin: 1rem 0 0.5rem 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-button .signup-btn {
+    background: #410237;
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #410237;
+    outline: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.signup-button .signup-btn:hover {
+    background: #660455;
+
+}
+
+.signup-button .signup-account {
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.signup-button .signup-account:hover {
+    color: #4451ff;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #660455;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: #660455;
+}
+
+::placeholder {
+    color: #5f4b5b;
+    text-align: right;
+    font-family: 'Vazir-FD';
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+/*Error Sections Styles*/
+.registration__form #user__error,
+.registration__form #pass__error,
+.registration__form #email__error,
+.registration__form #repass__error {
+    background: rgb(255, 0, 0, 0.1);
+    color: red;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 5px;
+    height: 40px;
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #ef9a9a;
+   display: none;
+}
+
+.registration__form small {
+    font-size: 14px;
+    color: red;
+    margin-right: 10px;
+    display: none;
+}

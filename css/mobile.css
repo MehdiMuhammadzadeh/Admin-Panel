@@ -1,0 +1,34 @@
+@media (max-width:500px) {
+
+    /*Responsive Sign in*/
+    #signin .signin-form {
+        flex-basis: 350px;
+    }
+
+    /*Responsive: Sign up*/
+    #signup .signup-form {
+        flex-basis: 350px;
+    }
+
+    /*Responsive: Change Password*/
+
+    #change-password .change-password__form {
+        flex-basis: 350px;
+    }
+
+    /*Responsive: Confirmation Code*/
+    #confirmation-code .confirmation-code__form {
+        flex-basis: 350px;
+    }
+
+    /*Responsive: Forget Password*/
+    #forget-pasdword .forget-password__form {
+        flex-basis: 350px;
+    }
+
+    /*Responsive: Confirmation Code*/
+
+    #confirmation-code .confirmation-code__form {
+        flex-basis: 350px;
+    }
+}

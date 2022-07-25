@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Welcome to the First Site" />
+    <meta name="keywords" content="HTML ,CSS, PHP, developer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/signin.css" />
+    <link rel="stylesheet" href="../css/mobile.css">
+
+
+    <title>Sign in!</title>
+</head>
+
+<body>
+
+    <section id="signin">
+        <div class="signin-form">
+            <h2 class="signin-title">ورود</h2>
+            <form class="login__form" action="" name="form" method="post" onsubmit="return validate()">
+                <div>
+                    <label for="">نام کاربری</label>
+                    <input autocomplete="off" type="text" name="username" placeholder="نام کاربری را وارد کنید">
+                    <div id="user__error">لطفا نام کاربری خود را وارد کنید</div>
+                </div>
+                <div>
+                    <label for="">رمز ورود</label>
+                    <input type="password" name="password" placeholder="رمز عبور وارد کنید">
+                    <div id="pass__error">لطفا رمز ورود را وارد کنید</div>
+                </div>
+                <div class="signin-button">
+                    <button class="signin-btn" type="submit">ورود</button>
+                </div>
+                <div class="signin-links">
+                    <a class="login-account" href="./comfirmationCode.html">!رمزم را فراموش کرده ام</a>
+                    <a class="login-account" href="./signup.html">!ساخت حساب کاربری جدید</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="../js/signin.js"></script>
+</body>
+
+</html>

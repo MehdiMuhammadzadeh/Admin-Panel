@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Welcome to the First Site" />
+    <meta name="keywords" content="HTML ,CSS, PHP, developer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/comfirmationCode.css" />
+    <link rel="stylesheet" href="../css/mobile.css">
+
+    <title>Confirmation Code</title>
+</head>
+
+<body>
+
+
+    <section id="confirmation-code">
+        <div class="confirmation-code__form">
+            <h2 class="confirmation-code__title">  کد فعالسازی </h2>
+            <form class="code__form" action="" name="form" method="post" onsubmit="return validate()">
+                <div>
+                    <label for="">کد فعالسازی رمز را وارد کنید</label>
+                    <input type="text" name="number" placeholder="کد 6 رقمی را وارد کنید">
+                    <div id="code__error">کد به شکل نادرست وارد شده است</div>
+                </div>
+                <div class="confirmation-code__button">
+                    <button class="confirmation-code__btn" type="submit"> تایید کد فعالسازی</button>
+                    <a class="resent-code__link" href="#">ارسال مجدد کد فعالسازی </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <script src="../js/comfirmationCode.js"></script>
+
+</body>
+
+</html>
